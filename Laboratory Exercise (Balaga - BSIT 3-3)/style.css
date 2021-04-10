@@ -1,0 +1,283 @@
+/*
+font-family: 'Coiny';
+font-family: 'Yeon-Sung';
+*/
+
+
+/*Maximize the space in edges*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Navigation*/
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: #001011;
+    border-bottom: 1px solid #3aafb9;
+}
+/*Logo*/
+.logo{
+    position: absolute;
+    height: 77px;
+    width: 190px;
+    left: 7%;
+    padding-top: 20px;
+}  
+
+/*Login Spacing in nav bar*/
+.login_form{
+    display: flex;
+    position: absolute;
+    
+    left: 58%;
+    top: 15px;
+} 
+
+/*Spacing between boxes*/
+.login_form .email,
+.login_form .password{
+    padding-left: 10px;
+}
+
+/*Forgotten Account*/
+.forgot_account a{
+    text-decoration: none;
+    color: #97C8EB;
+}
+.forgot_account{
+    margin-top: 8px;
+    font-size: 14px;
+}
+.forgot_account a:hover{
+    text-decoration: underline;
+}
+
+
+/*Login Font*/
+.login_form .email .font,
+.login_form .password .font{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: #97C8EB;
+    font-family: 'Yeon-Sung';
+}
+
+/* Blank Box (better look) */
+.login_form .email input,
+.login_form .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 400px;
+}
+/*Login button position*/
+.login_form button{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #64E9EE;
+    border: 1px solid #64E9EE;
+}
+.login_form button:hover {
+    background: #001011;
+    
+}
+.login_btn {
+    font-family: 'Yeon-Sung';
+    background-color:  #3aafb9;
+}
+
+/*Background page*/
+section{
+    height: 635px;
+    width: 100%;
+    top: 100px;
+    background:linear-gradient( #B6F5F7, #A3F2F5, #91EFF3, #7EEDF1, #64E9EE, #64E9EE); 
+}
+
+/*Logo Body*/
+.logo_body{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.logobdy{
+    width: 650px;
+    margin-top: 30px;
+    margin-left: -130px;
+}
+/*Facebook tagline*/
+.logo_body .like_font{
+    font-family: 'Coiny';
+    font-size: 25px;
+    margin-left: -130px;
+    margin-top: 20px;
+    color: #093A3E;
+}
+
+
+.signup_body{
+    font-family: 'Yeon-Sung';
+    position: absolute;
+    left: 57%;  
+}
+.signup_body .acc_crt{
+    font-size: 40px;
+    margin: 25px 0;
+    font-family: 'Coiny';
+    color: #093A3E;
+}
+/*tag line in making account*/
+.signup_body .free_hint{
+    margin: -20px 5px;
+    font-size: 20px;
+    color: #093A3E;
+}
+
+/*User-interface of signup form */
+.signup_body .signup_form input{
+    margin-top: 50px;
+    height: 38px;
+    width: 195px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 2px solid #093A3E;
+    border-radius: 400px;
+}
+/*lastname*/
+.signup_body .signup_form .last_name{
+    margin-left: 5px;
+    width: 210px;
+
+}
+/*Position of fill-up forms*/
+.signup_body .signup_form .email,
+.signup_body .signup_form .password,
+.signup_body .signup_form .password2{
+    margin-top: 20px;
+    width: 420px;
+}
+
+/* Birthday position */
+.signup_body .signup_form .birthday{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #093A3E;
+    font-family: 'coiny';
+}
+
+.signup_body .signup_form .birth_date{
+    margin-top: 5px;
+}
+
+/*Box UI - Birthday Option */
+.signup_body .signup_form .month,
+.signup_body .signup_form .day,
+.signup_body .signup_form .year{
+    height: 28px;
+    border-radius: 400px;
+    border: 2px solid #093A3E;
+}
+
+/*BDAY - QUESTION MARK*/
+.glyphicon glypicon-question-sign{
+    height: 40px;
+    width: 200px;
+}
+
+/* Gender position */
+.signup_body .signup_form .gender{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #093A3E;
+    font-family: 'coiny';  
+}
+
+/*Adjust radio button */
+.signup_body .signup_form input[type="radio"]{  
+    height: 15px;
+    margin-left: -80px;
+    margin-top: -30px;
+}
+/*Radio button for male */
+.signup_body .signup_form input[value="male"]{
+    margin-left: -75px;
+}
+
+/*Radio button for custom */
+.signup_body .signup_form input[value="custom"]{
+    margin-left: -95px;
+}
+
+/*Positioning of Gender name */
+.signup_body .signup_form .gender_female{    /*Female*/
+    margin-left: 35px;
+    margin-top: -28px;
+    font-size: 20px;
+    font-family: 'Yeon-Sung';
+}
+.signup_body .signup_form .gender_male{   /*Male*/
+    margin-left: 155px;
+    margin-top: -37px;
+    font-size: 20px;
+    font-family: 'Yeon-Sung';
+}
+.signup_body .signup_form .gender_custom{   /*Custom*/
+    margin-left: 257px;
+    margin-top: -37px;
+    font-size: 20px;
+    font-family: 'Yeon-Sung';
+}
+/*Gender (question mark)*/
+.question{
+    margin-left: 340px;
+    margin-top: -30px;
+}
+/*Agreement*/
+.signup_body .signup_form .agreement{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: #0A4247;     
+    font-weight: bold;
+}
+.agreement a{
+    text-decoration: underline;
+    color: #001011;
+    font-weight: 900, bolder;
+}
+.agreement a:hover{
+    font-weight: bolder;
+}
+/*Signup button */
+.signup_body .signup_form .signup{
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #093A3E;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#14858F, #0F636B, #093A3E); 
+}
+.signup_body .signup_form .signup:hover{
+    background: linear-gradient(#54BFC9, #2C848C);
+}
+
+.create_page{
+    margin-top: 20px;
+    color: #001011 ;
+    font-weight: bolder;
+}
